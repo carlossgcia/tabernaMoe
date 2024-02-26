@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cuerpo {
+    width: 100%;
+}
+
+/* CABECERA*/
+.contenido {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contenido .item {
+    margin-top: 10px;
+    width: 50%;
+
+}
+
+.contenido .item1 {
+    flex-basis: 30%;
+
+
+}
+
+.contenido .item2 {
+    flex-basis: 70%;
+
+}
+
+.contenido .item div {
+    width: 20%;
+}
+
+.contenido .item div img {
+    width: 100%;
+}
+
+
+.contenido .item {
+    display: flex;
+    align-items: center;
+}
+
+/* MENU*/
+nav {
+    width: 100%;
+}
+
+.nav-item {
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link .img {
+
+    margin: 5px;
+    width: 50px;
+}
+
+
+
+
+/* CARROUSEL*/
+.carousel {
+
+    height: 70vh;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+
+.img-carousel {
+
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+/*ACORDEON*/
+.accordion {
+    margin: 5px;
+
+
+
+}
+
+
+.guardarForm {
+    padding: 10px;
+
+}
+
+.btnReservar {
+
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+/* FOOTER*/
+footer {
+    margin-top: 10px;
+}
+
+@media (width < 1150px) {
+    .contenido {
+        flex-direction: column;
+    }
+
+    .item1 {
+        margin: 0 auto;
+    }
+
+    .item2 {
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (width < 1100px) {
+    .item2 {
+        flex-direction: column;
+    }
+
+
+    .item1 {
+        flex-direction: column;
+    }
+
+
+}
